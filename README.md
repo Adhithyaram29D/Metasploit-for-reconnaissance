@@ -25,7 +25,6 @@ Open terminal and try execute some kali linux commands
 Find out the ip address of the attackers system
 ## OUTPUT:
 
-
 ![Screenshot 2025-03-27 101111](https://github.com/user-attachments/assets/5b0fea40-1ec6-46d4-8ebc-4ed3546a7c54)
 
 Before beginning, set up the Metasploit database by starting the PostgreSQL server and initialize msfconsole database as follows:
@@ -86,10 +85,8 @@ Use the search option to look for an auxiliary module to scan and enumerate the 
 ![Screenshot 2025-03-29 135643](https://github.com/user-attachments/assets/8be25a44-fb5d-43a4-b84b-5695e60dc507)
 use the auxiliary/scanner/mysql/mysql_version module by typing the module name or associated number to scan MySQL version details. use 11 Or: use auxiliary/scanner/mysql/mysql_version
 
-
 ![Screenshot 2025-03-29 141955](https://github.com/user-attachments/assets/aea21e20-e746-43aa-9e52-ccc5ae294a4b)
 Use the set rhosts command to set the parameter and run the module, as follows:
-
 
 ![Screenshot 2025-03-29 135857](https://github.com/user-attachments/assets/e290776a-b601-47ce-89c7-a78285a53197)
 After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
@@ -103,7 +100,6 @@ Set BLANK_PASSWORDS to true in case there is no password set for the root accoun
 
 set BLANK_PASSWORDS true
 ![Screenshot 2025-03-29 140558](https://github.com/user-attachments/assets/0e53633f-bf22-4d6a-b3b0-efc1e66dcf2f)
-
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully.
